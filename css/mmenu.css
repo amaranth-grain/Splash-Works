@@ -1,0 +1,57 @@
+body {
+	padding: 20px 30px;
+  background-repeat: no-repeat, repeat;
+	background:  url(../images/menu.gif), #eee url(https://subtlepatterns.com/patterns/extra_clean_paper.png);
+	background-blend-mode: color-burn;
+	text-align: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+a {
+		color: #000;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-family: Helvetica;
+}
+.round a {
+		color: crimson;
+}
+
+.round .button {
+		display: inline-block;
+		width: 130vh;
+		height: 40vh;
+		line-height: 40vh;
+		margin-top: 20vh;
+		position: relative;
+		overflow: hidden;
+		border: 2px solid crimson;
+		transition: color .5s;
+}
+
+.round .button:before {
+		content: "";
+		position: absolute;
+		z-index: -1;
+		background: crimson;
+		height: 150vh;
+		width: 200vh;
+		border-radius: 50%;
+}
+
+.round .button:hover {
+		color: #fff;
+}
+
+.round .button:before {
+		top: 0;
+		left: -200%;
+		transition: all .7s;
+}
+
+.round .button:hover:before {
+		top: -30vh;
+		left: -30vh;
+}
+

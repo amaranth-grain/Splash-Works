@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     
+        <link rel="stylesheet" type="text/css" href="./css/styleEaster.css">
+    </head>
+    <body>
+
+    <button>Press Me</button>
+
+        <div class="content">
+            <p class="doge" id="doge1">very splash</p>
+            <p class="doge" id="doge2">so works</p>
+            <p class="doge" id="doge3">wow</p>
+            <p class="doge" id="doge4">whoa</p>
+            <img src="./img/doge.png"/>
+        </div>
+        
+       <script> 
+            $(document).ready(function(){
+                $(".doge").hide();
+                
+                $("button").click(function(){
+                    $("#doge1").fadeIn(800).animate({left: '1000px'}, 3000, "swing").fadeOut();
+                    $("#doge2").fadeIn(400).animate({right: '3000px'}, 3000, "swing").fadeOut();
+                    $("#doge3").fadeIn(1200).animate({left: '800px'}, 2000, "swing").fadeOut();
+                    
+                    $("#doge4").fadeIn(400).animate({left: '500px'}, 1800, "swing").fadeOut();
+                    
+                });
+            });
+        </script> 
+    </body>
+    
+</html>
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="./css/styleEaster.css">
+    </head>
+    <body>
+
+        <button>Press Me</button>
+
+        <div style="background:#98bf21;height:100px;width:100px;position:absolute;"></div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <p class="doge">very splash</p>
+        <p class="doge">so works</p>
+        <p class="doge" id="test">wow</p>
+
+        <script> 
+            $(document).ready(
+                $("button").click(function(){
+                $("div").animate({left: '250px'});
+            });
+                
+
+        
+        </script> 
+    </body>
+    
+</html>

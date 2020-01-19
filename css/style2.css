@@ -1,0 +1,203 @@
+body{
+    text-align: center;
+    background: url(../images/rip1.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@font-face {
+    font-family: "The-Wastes-of-Space";
+    src: url(../fonts/The-Wastes-of-Space.otf);
+}
+
+#logo {
+    display: none;
+}
+
+h1{
+    font-family: "The-Wastes-of-Space";
+    color: burlywood;
+    margin: 0 auto;
+}
+.innerForm input[type="text"], .innerForm input[type="password"] {
+    padding: 13px 10px;
+    width: 90%;
+    font-size: 16pt;
+    outline: none;
+    background: transparent;
+    border: 0px;
+    border-bottom: 1px solid #fff;
+    border-radius: 0px;
+    color:#fff;
+}
+.innerForm input[type="submit"] {
+    background: #D65B88;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 auto;
+    width: 340px;
+}
+
+.padding {
+    margin: 20px 0 30px;
+}
+
+.padding-all {
+    margin: 10vw auto 10vw auto;
+    width: 80%;
+    height: 85%;
+    padding: 5vw;
+    background-color: rgba(50, 50, 150, 0.3);
+    border-radius: 8vw;
+}
+
+.navBar {
+    margin: 0 auto;
+}
+
+.navBar img {
+    width: 80%;
+    height: auto;
+}
+
+.header {
+    font-size: 10vw;
+    letter-spacing: 0.1em;
+    margin: 0 auto;
+}
+
+.mainForm {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.innerForm {
+    margin: 0 auto;
+    padding: 5vw 2vw;
+    background: rgba(102,51,153, 0.38);
+    width: 90%;
+    height: 30vh;
+}
+
+#submit {
+    font-size: 5vw;
+}
+
+.form-group {
+    padding: 1em;
+}
+
+.footer {
+    font-size: 5vw;
+    line-height: 1em;
+    height: 7vw;
+    margin-top: 1em;
+}
+
+.footer a {
+    color: coral;
+}
+
+.tip {
+    color: white;
+    font-family: sans-serif;
+}
+
+@media (orientation: landscape) {
+    
+    .header {
+        font-size: 5vw;
+        padding: 0;
+        margin: 0;
+        letter-spacing: 0.1em;
+    }
+    .mainForm {
+        width: auto;
+        margin: 0 auto;
+        padding: 0;
+        overflow: auto;
+    }
+    .padding-all {
+        margin-top: 3vh;
+        width: 85%;
+        height: 80%;
+    }
+    .innerForm {
+        padding: 8vh auto 5vh;
+        width: 70%;
+        height: 80%;
+        float: right;
+        background: rgba(102,51,153, 0.6);
+    }
+    .innerForm input[type="submit"] {
+        width: 28vw;
+    }
+    .navBar img {
+        width: 40vw;
+        padding: 0;
+        margin: 5vw 2vh;
+    }
+    
+    .logo {
+        padding-top: 2vh;
+        display: block;
+        float: left;
+        clear: left;
+    }
+    
+    .logo img {
+        width: 40vw;
+        padding: 0;
+        margin: 5vw 2vh;
+    }
+    
+    .navBar {
+        padding-top: 2vh;
+        float: left;
+        clear: left;
+    }
+
+    
+    .footer {
+        font-size: 3.5vw;
+    }
+    
+    #submit {
+        font-size: 3vw;
+        text-align: center;
+    }
+    
+
+}
+
+/*@media screen and (max-width:600px) and (min-width:100px) {
+    .header {
+        font-size: 20pt;
+    }
+    .mainForm {
+        width: 40vw;
+    }
+    .padding-all {
+        padding: 10px;
+        margin: 0;
+        width: auto;
+        background-color: transparent;
+    }
+    .innerForm {
+        padding: 100vw;
+        background: rgba(102,51,153, 0.6);
+    }
+    .innerForm input[type="submit"] {
+        width: 220px;
+    }
+    .navBar img {
+        width: 270px;
+        height: auto;
+    }
+
+}
+}*/

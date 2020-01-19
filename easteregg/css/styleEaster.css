@@ -1,0 +1,35 @@
+.doge {
+    font-family: "Comic Sans MS";
+    color: red;
+    position: relative;
+    font-size: 5em;
+    padding: 0;
+    margin: 0;
+}
+
+/*very splash*/
+#doge1 {
+    left: -500px;
+    top: 100px;
+    color: orange;
+}
+
+/*so works*/
+#doge2 {
+    right: -1000px;
+    top: 200px;
+}
+
+/*wow*/
+#doge3 {
+    color: magenta;
+}
+
+/*whoa*/
+#doge4 {
+    color: blue;
+    margin: 0 auto;
+}
+
+
+

@@ -1,0 +1,294 @@
+body{
+text-align: center;
+background: url(../images/rip1.png);
+background-repeat: repeat;
+background-attachment: fixed;
+}
+
+@font-face {
+    font-family: "The-Wastes-of-Space";
+    src: url(../fonts/The-Wastes-of-Space.otf);
+    
+}
+
+@font-face {
+  font-family: 'ComicSansMS';
+  src: url('../fonts/ComicSansMS.eot?#iefix') format('embedded-opentype'),  url('../fonts/ComicSansMS.woff') format('woff'), url('../fonts/ComicSansMS.ttf')  format('truetype'), url('../fonts/ComicSansMS.svg#ComicSansMS') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#logoImage {
+    display: none;
+}
+
+.doge {
+    display: none;
+}
+
+#logo {
+    display: none;
+}
+
+h1{
+    font-family: "The-Wastes-of-Space";
+    color: burlywood;
+    margin: 0 auto;
+}
+.innerForm input[type="text"], .innerForm input[type="password"] {
+    padding: 13px 10px;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 16pt;
+    outline: none;
+    background: transparent;
+    border: 0px;
+    border-bottom: 1px solid #fff;
+    border-radius: 0px;
+    color:#fff;
+}
+.innerForm input[type="submit"] {
+    background-color: #D65B88;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px auto;
+    width: 340px;
+}
+.padding {
+    margin: 20px 0 30px;
+}
+.padding-all {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 50px 50px 50px 50px;
+    background-color: rgba(50, 50, 150, 0.3);
+    border-radius: 80px;
+}
+.navBar {
+    margin: 0 auto;
+}
+.navBar img {
+    width: 373px;
+    height: auto;
+}
+.header {
+    font-size: 44pt;
+    margin: 0 auto;
+}
+.mainForm {
+    margin: 0 auto;
+    width: 400px;
+}
+.innerForm {
+    margin: 0 auto;
+    padding: 50px 20px;
+    background: rgba(102,51,153, 0.38);
+    width: 90%;
+}
+.footer {
+    padding-top: 1px;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    line-height: 8px;
+    height: 70px;
+    margin-top: 20px;
+}
+.footer a {
+    color: coral;
+}
+
+
+.tip {
+  color: white;
+}
+
+@media screen and (max-width:600px) and (min-width:100px) {
+    .header {
+        font-size: 20pt;
+    }
+    .mainForm {
+        width: 250px;
+    }
+    .padding-all {
+        padding: 10px;
+        margin: 0;
+        width: auto;
+        background-color: transparent;
+    }
+    .innerForm {
+        padding: 15px 15px 0 15px;
+        background: rgba(102,51,153, 0.6);
+    }
+    .innerForm input[type="submit"] {
+        width: 220px;
+    }
+    .navBar img {
+        display: none;
+    }
+    
+    #biglogo {
+        display: none;
+    }
+    
+    #signuplogo {
+        display: block;
+        width: 270px;
+        height: auto;
+        margin: 0 auto;
+        padding: 0;
+    }
+    
+    #logo {
+        display: block;
+        width: 270px;
+        height: auto;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (orientation: landscape) and (min-width: 600px) {
+    .header {
+        font-size: 5vw;
+        padding: 0;
+        margin: 0;
+        letter-spacing: 0.1em;
+    }
+
+    .mainForm {
+        width: 50%;
+        margin: 0 auto;
+        padding: 0;
+        padding-left: 1em;
+        overflow: auto;
+    }
+
+    .padding-all {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 90%;
+        height: 80%;
+    }
+
+
+
+    /*Purple form*/
+   .innerForm {
+        padding: 8vw auto 5vw;
+        width: 100%;
+        height: 80%;
+        float: right;
+        background: rgba(102,51,153, 0.6);
+    }
+
+    .innerForm input[type="text"], .innerForm input[type="password"] {
+    padding: 2vw 2vw;
+    margin: 0 auto;
+    /*Width of input text field*/
+    width: 80%;
+    font-size: 3vw;
+    outline: none;
+    background: transparent;
+    border: 0px;
+    border-bottom: 1px solid #fff;
+    border-radius: 0px;
+    color:#fff;
+}
+
+
+    .innerForm input[type="submit"] {
+        width: 35vw;
+        margin: 1em;
+    }
+
+    .navBar img {
+        width: 35vw;
+        padding: 0;
+        margin: 5vw 2vw;
+    }
+
+    .logo {
+        padding-top: 2vw;
+        display: block;
+        float: left;
+        clear: left;
+    }
+
+    #logoImage {
+        display: block;
+        width: 35vw;
+        margin: 5vw 2vw;
+    }
+
+    .navBar {
+        padding-top: 2vw;
+        padding-top: 2vw;
+        float: left;
+        clear: left;
+    }
+
+
+    .footer {
+        font-size: 3.5vw;
+        font-family: sans-serif;
+    }
+
+    #submit {
+        font-size: 3vw;
+        text-align: center;
+    }
+}
+
+.doge {
+    font-family: 'ComicSansMS';
+    color: red;
+    position: relative;
+    font-size: 3em;
+    padding: 0;
+    margin: 0;
+    float: left;
+    z-index: 100;
+}
+
+/*very splash*/
+#doge1 {
+    left: -500px;
+    top: -300px;
+    color: cyan;
+}
+
+/*so works*/
+#doge2 {
+    right: -1000px;
+    top: -450px;
+}
+
+/*wow*/
+#doge3 {
+    color: magenta;
+    top: -200px;
+}
+
+
+/*very game*/
+#doge4 {
+    color: orange;
+    margin: 0 auto;
+    top: -350px;
+}
+
+#dogePic {
+    z-index: 99;
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 200px;
+    margin: 0 auto;
+}
+
